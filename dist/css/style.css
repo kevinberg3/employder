@@ -443,6 +443,7 @@ textarea {
 }
 #testimonial {
   background-color: #0D56A6;
+  height: 100vh;
 }
 
 #about {
@@ -626,6 +627,7 @@ footer .social-links ul li a:hover {
   height: 100vh;
   margin-bottom: 2px;
   margin-top: 1px;
+  overflow: hidden;
 }
 
 @media (max-width: 767px) {
@@ -635,6 +637,40 @@ footer .social-links ul li a:hover {
     color: green;
     padding-bottom: 25px;
   }
+
+  #about .container .row .col-lg-2 #founderbio {
+    display: none;
+  }
 }
 
+@media (max-width: 767px) {
+  #primary-hero {
+    background: #ff6867;
+    height: 25%;
+    color: green;
+    padding-bottom: 25px;
+  }
+
+  #about .container .row .col-lg-2 #founderbio {
+    display: none;
+  }
+}
+
+
+@media (max-width: 1199px) {
+  #about .container .row .col-lg-2 #founderbio {
+    display: none;
+  }
+
+
+
+}
+
+@media (max-width: 991px) {
+  #about .container .row .col-lg-10 {
+    font-size: .85em;
+    padding-bottom: 5px;
+    
+  }
+}
 
