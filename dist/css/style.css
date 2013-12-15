@@ -628,4 +628,13 @@ footer .social-links ul li a:hover {
   margin-top: 1px;
 }
 
+@media (max-width: 767px) {
+  #primary-hero {
+    background: #ff6867;
+    height: 25%;
+    color: green;
+    padding-bottom: 25px;
+  }
+}
+
 
