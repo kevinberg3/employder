@@ -651,6 +651,8 @@ footer .social-links ul li a:hover {
     padding-bottom: 25px;
   }
 
+ 
+
   #about .container .row .col-lg-2 #founderbio {
     display: none;
   }
@@ -665,9 +667,6 @@ footer .social-links ul li a:hover {
   #services .container .row {
     margin-top: 2em;
   }
-
-
-
 }
 
 @media (max-width: 991px) {
@@ -684,9 +683,25 @@ footer .social-links ul li a:hover {
   }
 }
 
+.signupnow {
+
+    position: fixed;
+    top: 15%;
+    right: .5em;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: navy;
+    font-size: 12px;
+    padding: .5em;
+    display: none;
+  }
+
+  .signupnow:hover {    
+      background-color: rgba(135, 135, 135, 0.50);
+  }
+}
 
 /* WUFOO Styling */
 
-.nameform, .emailform, .resumeform, .moreform {
-  border-radius: 50px;
-}
+

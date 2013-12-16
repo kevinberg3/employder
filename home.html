@@ -361,7 +361,7 @@
   </div>
      
         
-   
+   <a href="#contact" class="signupnow">Send us your resume for a free review!</a>
 
      <script>
     $(document).ready(function(){
@@ -413,6 +413,25 @@
     });
      </script>
   
+    <script>
+    $(document).ready(function() {
+        var offset = 650;
+        var duration = 500;
+        jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+                jQuery('.signupnow').fadeIn(duration);
+            } else {
+                jQuery('.signupnow').fadeOut(duration);
+            }
+        });
+        
+        jQuery('.signupnow').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+        })
+    });
+    </script>
     
  
 </footer>
