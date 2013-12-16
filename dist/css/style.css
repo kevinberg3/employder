@@ -662,6 +662,10 @@ footer .social-links ul li a:hover {
     display: none;
   }
 
+  #services .container .row {
+    margin-top: 2em;
+  }
+
 
 
 }
@@ -670,7 +674,19 @@ footer .social-links ul li a:hover {
   #about .container .row .col-lg-10 {
     font-size: .85em;
     padding-bottom: 5px;
-    
+   
+  }
+
+  #services .container .feature-description {
+    width: 45%;
+    text-align: center;
+    margin: 0 auto;
   }
 }
 
+
+/* WUFOO Styling */
+
+.nameform, .emailform, .resumeform, .moreform {
+  border-radius: 50px;
+}
