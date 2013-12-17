@@ -361,7 +361,7 @@ textarea {
 #about .container .col-lg-10 .quote .aboutus {
   text-align: left;
   font-size: 1.1em;
-  float: left;
+  /*float: left;*/
   
 }
 
@@ -370,20 +370,22 @@ textarea {
 
 
 /* ========== FEATURES ========== */
+
 #features,
  {
+
   position: center;
   text-align: center;
   background-color: #ffffff;
 }
 #services figure,
-#curriculum figure {
+ {
   height: 300px;
   text-align: center;
   position: center;
 }
-#features figure .feature-icon,
-#curriculum figure .feature-icon {
+#features figure .feature-icon
+ {
   color: #ff6867;
   font-size: 105px;
   line-height: .8em;
@@ -393,11 +395,11 @@ textarea {
   transition: color, .4s;
 }
 #features figure:hover .feature-icon,
-#curriculum figure:hover .feature-icon {
+ {
   color: #38ad9e;
 }
 #features .feature-description,
-#curriculum .feature-description {
+ {
   margin-bottom: 56px;
 }
 /* ========== Testimonials ========== */
@@ -446,9 +448,6 @@ textarea {
   height: 100vh;
 }
 
-#about {
-  height: 100vh;
-}
 
 
 /* ========== CLIENTS ========== */
@@ -471,11 +470,11 @@ textarea {
 
   padding: 0px 20px 0px 20px;
 }
-#clients .image-list .row > div,
+/*#clients .image-list .row > div,
 #about .image-list .row > div {
   height: 100px;
   overflow: hidden;
-}
+}*/
 #clients .image-list img,
 #about .image-list img {
   margin: 0px auto;
@@ -528,7 +527,7 @@ textarea {
 /* ========== CONTACT ========== */
 #contact {
   background-color: #0AB3CC;
-  height: 70%;
+  height: 50%;
 }
 #contact .contact-form {
   margin-top: 28px;
@@ -623,7 +622,7 @@ footer .social-links ul li a:hover {
 #about  {
   width: 100%;
   text-align: left;
-  float: left;
+  /*float: left;*/
   height: 100vh;
   margin-bottom: 2px;
   margin-top: 1px;
