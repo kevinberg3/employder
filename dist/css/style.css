@@ -675,10 +675,18 @@ footer .social-links ul li a:hover {
    
   }
 
+@media (min-width: 991px) {
+    #about .container .row .col-lg-10 p {
+      font-size: 1.5em;
+      padding-bottom: 5px;
+     
+    }
+
   #services .container .feature-description {
     width: 45%;
     text-align: center;
     margin: 0 auto;
+    display: block;
   }
 }
 
@@ -701,6 +709,15 @@ footer .social-links ul li a:hover {
   }
 }
 
+#services {
+
+  position: center;
+  text-align: center;
+}
+
+img {
+  position: center;
+}
 /* WUFOO Styling */
 
 
