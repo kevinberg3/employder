@@ -660,7 +660,7 @@ footer .social-links ul li a:hover {
 
 
 @media (max-width: 1199px) {
-  #about .container .row .col-lg-2 #founderbio {
+  #about .container .row .col-lg-2 #founderbio, #testimonial .container .row .col-md-2 {
     display: none;
   }
 
