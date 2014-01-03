@@ -216,7 +216,6 @@
     <div class="row">
       <div class="title">
         <h1>Testimonials</h1>
-        
       </div>
       <div class="title-hr-dark"></div>
     </div>
@@ -227,7 +226,7 @@
               <div class="feature-icon">
                 <h3>Ashley K</h3>
                 
-                <img id="customer" class="img-circle" src="dist/images/menteeface1.gif" style="height:auto;margin:0px;width: 8em;">
+                <img id="customer" class="img-circle" src="dist/images/menteeface1.gif" style="height:9em;margin:0px;width: 8em;">
               </div>
               <h3>Mentee</h3>
               
@@ -240,7 +239,7 @@
               <div class="feature-icon">
                 <h3>Chris R</h3>
                 
-                <img id="customer" class="img-circle" src="dist/images/mentorface2.gif" style="height:auto;margin:0px;width: 8em;">
+                <img id="customer" class="img-circle" src="dist/images/mentorface2.gif" style="height:9em;margin:0px;width: 8em;">
               </div>
               <h3>Mentor</h3>
               
@@ -254,11 +253,12 @@
         </div>
         
       </div>
-      </br>
+      
 
       <div class="row">
-        <div class="col-md-8" class="quote">
-          <p>"The expertise gained from meeting with my mentor gave me insights that I would never have learned or even thought of while in school. Receiving guidance from Daniel, who had just been in my position proved to be invaluable."</p>
+        <div class="col-md-8">
+          <p>"The expertise gained from meeting with my mentor gave me insights that I would never have learned or even thought of while in school. Receiving guidance from Daniel, who had just been in my position proved to be invaluable."
+          </p>
         </div>
 
         <div class="col-md-2">
@@ -278,17 +278,17 @@
               <h3>Daniel C</h3>
               
               <img id="customer" class="img-circle" src="dist/images/mentorface1.gif" style="height:9em;margin:auto;width: 8em;">
+              <h3>Mentor</h3>
             </div>
-            <h3>Mentor</h3>
+            
             
           </figure> 
         </div>
-      </div>
       
     </div>
 
 </div>
-  </div>
+  
   
 
 </section>
@@ -406,7 +406,7 @@
 
         <div class="col-lg-8 copyright">
           <p>
-            © 2013 <a href="/">Employder</a>
+            © 2013 Employder
             </br>
             <small>
               Image credit: <a href='http://www.123rf.com/photo_16385821_toronto-sunset-over-lake-panorama-with-urban-skyline.html'>123RF Stock Photo</a>
@@ -426,7 +426,7 @@
       $("#servicelink").click(function() {
         $('html, body').animate({
             scrollTop: $("#services").offset().top-84
-        }, 750);
+        }, 350);
       });
     });
     </script>
@@ -436,7 +436,7 @@
       $("#testimoniallink").click(function() {
         $('html, body').animate({
             scrollTop: $("#testimonial").offset().top-84
-        }, 750);
+        }, 350);
       });
     });
     </script>
@@ -446,7 +446,7 @@
       $("#aboutlink").click(function() {
         $('html, body').animate({
             scrollTop: $("#about").offset().top-84
-        }, 750);
+        }, 350);
       });
     });
     </script>
@@ -456,7 +456,7 @@
       $("#contactlink").click(function() {
         $('html, body').animate({
             scrollTop: $("#contact").offset().top-84
-        }, 750);
+        }, 350);
       });
     });
      </script>
@@ -466,31 +466,13 @@
       $("#homelink").click(function() {
         $('html, body').animate({
             scrollTop: $("#home").offset().top
-        }, 750);
+        }, 350);
       });
     });
     </script>
   
     <script>
-    $.fn.scrollBottom = function() { 
-      return $(document).height() - this.scrollTop() - this.height(); 
-    };
-
-   jQuery("a[href='#signupnow']").click(function() {
-     jQuery("html, body").animate({ scrollBottom: 0 }, "slow");
-     return false;
-   });
-
-   jQuery(window).scroll(function() {
-       if (jQuery(this).scrollBottom()> 200)
-        {
-           jQuery('.signupnow').fadeIn();
-        }
-       else
-        {
-         jQuery('.signupnow').fadeOut();
-        }
-   });
+   
     </script>
 </footer>
 
