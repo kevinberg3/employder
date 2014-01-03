@@ -219,65 +219,67 @@
         
       </div>
       <div class="title-hr-dark"></div>
+    </div>
       <div class="col-lg-12">
-        <div class="row">
+        <div class="row" id="relationships">
           <div class="col-md-2">
             <figure>
               <div class="feature-icon">
+                <h3>Ashley K</h3>
                 
-                <img id="customer" class="img-circle" src="dist/images/mentee2.gif" style="height:9em;margin:0px;width: 8em;">
+                <img id="customer" class="img-circle" src="dist/images/menteeface1.gif" style="height:auto;margin:0px;width: 8em;">
               </div>
-              <h3>Jin Y - Mentee</h3>
+              <h3>Mentee</h3>
               
             </figure> 
           </div>
+          
+
+          <div class="col-md-2">
+            <figure>
+              <div class="feature-icon">
+                <h3>Chris R</h3>
+                
+                <img id="customer" class="img-circle" src="dist/images/mentorface2.gif" style="height:auto;margin:0px;width: 8em;">
+              </div>
+              <h3>Mentor</h3>
+              
+            </figure> 
+          </div>
+
           <div class="col-md-8">
             <p>"Employder put me a step-ahead of my peer group and prepared me for the upcoming recruiting season. I was able to work directly with one of their mentors, who was with me every step of the way, leading a several job offers from top-tiered firms."
             </p>
           </div>
-
-          <div class="col-md-2">
-            <figure>
-              <div class="feature-icon">
-                
-                <img id="customer" class="img-circle" src="dist/images/mentor2.gif" style="height:9em;margin:0px;width: 8em;">
-              </div>
-              <h3>Ashley K - Mentor</h3>
-              
-            </figure> 
-          </div>
         </div>
+        
+      </div>
       </br>
 
-        <div class="row">
-
-          <div class="col-md-2">
-            <figure>
-              <div class="feature-icon">
-                
-                <img id="customer" class="img-circle" src="dist/images/mentee1.gif" style="height:9em;margin:0px;width: 8em;">
-              </div>
-              <h3>Taylor S - Mentee</h3>
-              
-            </figure> 
-          </div>
-
-          <div class="col-md-8" class="quote">
-          
-          
+      <div class="row">
+        <div class="col-md-8" class="quote">
           <p>"The expertise gained from meeting with my mentor gave me insights that I would never have learned or even thought of while in school. Receiving guidance from Daniel, who had just been in my position proved to be invaluable."</p>
-          
+        </div>
 
+        <div class="col-md-2">
+          
+            <div class="feature-icon">
+              <h3>Taylor S</h3>
+              
+              <img id="customer" class="img-circle" src="dist/images/menteeface2.gif" style="height:9em;margin:0px;width: 8em;">
+            </div>
+            <h3>Mentee</h3>
           
         </div>
 
         <div class="col-md-2">
           <figure>
             <div class="feature-icon">
+              <h3>Daniel C</h3>
               
-              <img id="customer" class="img-circle" src="dist/images/mentor1.gif" style="height:9em;margin:auto;width: 8em;">
+              <img id="customer" class="img-circle" src="dist/images/mentorface1.gif" style="height:9em;margin:auto;width: 8em;">
             </div>
-            <h3>Daniel C - Mentor</h3>
+            <h3>Mentor</h3>
             
           </figure> 
         </div>
@@ -285,7 +287,7 @@
       
     </div>
 
-
+</div>
   </div>
   
 
@@ -470,7 +472,25 @@
     </script>
   
     <script>
-   
+    $.fn.scrollBottom = function() { 
+      return $(document).height() - this.scrollTop() - this.height(); 
+    };
+
+   jQuery("a[href='#signupnow']").click(function() {
+     jQuery("html, body").animate({ scrollBottom: 0 }, "slow");
+     return false;
+   });
+
+   jQuery(window).scroll(function() {
+       if (jQuery(this).scrollBottom()> 200)
+        {
+           jQuery('.signupnow').fadeIn();
+        }
+       else
+        {
+         jQuery('.signupnow').fadeOut();
+        }
+   });
     </script>
 </footer>
 
