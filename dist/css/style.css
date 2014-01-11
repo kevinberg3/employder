@@ -732,16 +732,19 @@ img {
   text-align: left;
   position: center;
   vertical-align: middle;
-  margin-top: 6em;
+  margin-top: 3em;
   background-color: #F3FFFF;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
   color: black;
-  font-family: 'Bubbler One', sans-serif;
-  font-size: 1.3em;
+  font-family: 'IM Fell Double Pica', 'sans-serif';
+  font-size: 1.5em;
+  width: 100%;
 }
-
+.section #testimonial .container .row .col-md-8 h3 {
+  text-align: center;
+}
 
 
 
