@@ -324,7 +324,7 @@ textarea {
 }*/
 #primary-hero {
   
-  background: url("../images/toronto.gif") 50% 0 no-repeat;
+  background: url("../images/torontolight.jpg") 50% 0 no-repeat;
   height: 100vh;
   background-size: 100% 100%;
   
@@ -446,7 +446,7 @@ textarea {
 }
 #testimonial {
   background-color: #0D56A6;
-  height: 100vh;
+  height: auto;
 }
 
 
@@ -528,13 +528,13 @@ textarea {
 /* ========== CONTACT ========== */
 #contact {
   background-color: #0AB3CC;
-  height: 50%;
+  height: auto;
 }
 #contact .contact-form {
   margin-top: 28px;
 }
 #contact .contact-submit {
-  float: right;
+  /*float: right;*/
 }
 #contact label {
   font-size: 17px;
@@ -577,7 +577,7 @@ footer .copyright small a:hover {
   text-decoration: underline;
 }
 footer .social-links {
-  float: right;
+  /*float: right;*/
 }
 footer .social-links ul {
   padding: 0;
