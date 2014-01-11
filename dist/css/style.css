@@ -2,7 +2,7 @@
 
 /* ========== GENERAL STYLES ========== */
 body {
-  font-family: , sans-serif;
+  font-family: sans-serif;
   padding-top: 84px;
 }
 a {
@@ -738,8 +738,8 @@ img {
   -moz-border-radius: 15px;
   border-radius: 15px;
   color: black;
-  font-family: 'IM Fell Double Pica', 'sans-serif';
-  font-size: 1.5em;
+  font-family: 'roboto', sans-serif;
+  font-size: 2em;
   width: 100%;
 }
 .section #testimonial .container .row .col-md-8 h3 {
