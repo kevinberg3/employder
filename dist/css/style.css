@@ -362,7 +362,7 @@ textarea {
 #about .container .col-lg-10 .quote .aboutus {
   text-align: left;
   font-size: 1.3em;
-  /*float: left;*/
+  
   
 }
 
@@ -624,7 +624,7 @@ footer .social-links ul li a:hover {
   width: 100%;
   text-align: left;
   
-  height: 100vh;
+  height: auto;
   margin-bottom: 2px;
   margin-top: 1px;
   overflow: hidden;
