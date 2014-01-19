@@ -19,6 +19,53 @@ body {
   margin-right: auto;
 }
 
+#resumedetail .col-lg-6 {
+    margin: auto;
+}
+#coverdetail{
+  padding-left: 4em;
+  background-color: green;
+  height: auto;
+  color: white;
+  font-family: 'bad-script';
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#linkedindetail{
+  padding-left: 4em;
+  background-color: blue;
+  height: auto;
+  color: white;
+  font-family: 'bad-script';
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#interviewdetail{
+  padding-left: 4em;
+  background-color: red;
+  height: auto;
+  color: white;
+  font-family: 'bad-script';
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#mentordetail{
+  padding-left: 4em;
+  background-color: gray;
+  height: auto;
+  color: white;
+  font-family: 'bad-script';
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
 #resumedetail .row h1 {
 font-family: 'Bad Script', sans-serif;
 }
