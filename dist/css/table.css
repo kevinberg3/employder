@@ -86,6 +86,7 @@ font-family: 'Bad Script', sans-serif;
     width: 100%;
     color: #fff;
     float: left;
+
     list-style-type: none;
     transition: all 0.25s;
     position: relative;
@@ -96,9 +97,15 @@ font-family: 'Bad Script', sans-serif;
 
 #section0 .pricing_table h3 {
     text-transform: uppercase;
+    text-align: center;
     padding: 5px 0;
     background: #333;
-    margin: -10px 0 1px 0;
+    margin: -60px 0 1px 0;
+
+}
+
+#section0 .footer {
+    text-align: center;
 }
 
 #section0 .price {
@@ -116,11 +123,27 @@ font-family: 'Bad Script', sans-serif;
 #section0 .price_number {
     font-weight: bold;
     display: block;
+    text-align: center;
 }
 #section0 .price_tenure {
     font-size: 11px;
 }
 
+#section0 #starter {
+    background-color: #0D56A6;
+}
+#section0 .title a {
+    color: blue;
+}
+#section0 .title a:hover {
+    color: red;
+}
+#section0 #pro {
+    background-color: #5A016D;
+}
+#section0 #basic {
+background-color: teal;
+}
 #section0 .features {
     background: #DEF0F4;
     color: #000;
