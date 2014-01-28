@@ -10,13 +10,15 @@ body {
 
 #resumedetail{
 
-  background-color: teal;
+  background-color: white;
   height: auto;
-  color: white;
+  color: black;
   font-family: 'bad-script';
   text-align: center;
   margin-left: 0 auto;
   margin-right: 0 auto;
+  padding-left: 15%;
+  padding-right: 15%;
   /*width: 100%;*/
 }
 
@@ -26,48 +28,66 @@ body {
 
 #coverdetail{
   
-  background-color: green;
-  height: auto;
-  color: white;
-  font-family: 'bad-script';
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: white;
+    height: auto;
+    color: black;
+    font-family: 'bad-script';
+    text-align: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
 }
+
 
 #linkedindetail{
   
-  background-color: blue;
-  height: auto;
-  color: white;
-  font-family: 'bad-script';
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+    background-color: white;
+    height: auto;
+    color: black;
+    font-family: 'bad-script';
+    text-align: center;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 #interviewdetail{
   
-  background-color: red;
-  height: auto;
-  color: white;
-  font-family: 'bad-script';
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+      background-color: white;
+      height: auto;
+      color: black;
+      font-family: 'bad-script';
+      text-align: center;
+      margin-left: 0 auto;
+      margin-right: 0 auto;
+      padding-left: 15%;
+      padding-right: 15%;
+  
 
 }
 
 #mentordetail{
   
-  background-color: gray;
-  height: auto;
-  color: white;
-  font-family: 'bad-script';
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+      background-color: white;
+      height: auto;
+      color: black;
+      font-family: 'bad-script';
+      text-align: center;
+      margin-left: 0 auto;
+      margin-right: 0 auto;
+      padding-left: 15%;
+      padding-right: 15%;
+  
 }
+
+.col-lg-12 p {
+    text-align: left;
+}
+
+
+
 #resumedetail .row h1 {
 font-family: 'Bad Script', sans-serif;
 }
@@ -138,6 +158,8 @@ font-family: 'Bad Script', sans-serif;
 #section0 .title a:hover {
     color: red;
 }
+
+
 #section0 #pro {
     background-color: #5A016D;
 }
