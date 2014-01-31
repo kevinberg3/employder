@@ -7,10 +7,12 @@ body {
     font-family: Ubuntu, arial, verdana;
 
 }
-
+#resumedetail img {
+    width: auto;
+}
 #resumedetail{
 
-  background-color: white;
+  background-color: #CBD7E8;
   height: auto;
   color: black;
   font-family: 'bad-script';
@@ -42,7 +44,7 @@ body {
 
 #linkedindetail{
   
-    background-color: white;
+    background-color: #CBD7E8;
     height: auto;
     color: black;
     font-family: 'bad-script';
@@ -51,6 +53,18 @@ body {
     margin-right: 0 auto;
     padding-left: 15%;
     padding-right: 15%;
+}
+#linkedindetail .list-group {
+    
+    position: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+#linkedindetail .list-group #odd {
+    color: white;
+    background-color: #0D56A6;
+    height: 3.8em;
 }
 
 #interviewdetail{
@@ -181,6 +195,8 @@ background-color: teal;
     padding: 15px;
     background: #DEF0F4;
 }
+
+
 #section0 .action_button {
     text-decoration: none;
     color: #fff;
