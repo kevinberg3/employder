@@ -7,12 +7,12 @@ body {
     font-family: Ubuntu, arial, verdana;
 
 }
-#resumedetail img {
+#resumedetail img, #coverdetail img, #linkedindetail img, #interviewdetail img {
     width: auto;
 }
 #resumedetail{
 
-  background-color: #CBD7E8;
+  background-color: #DEF0F4;
   height: auto;
   color: black;
   font-family: 'bad-script';
@@ -30,7 +30,7 @@ body {
 
 #coverdetail{
   
-    background-color: white;
+    background-color: #DEF0F4;
     height: auto;
     color: black;
     font-family: 'bad-script';
@@ -41,10 +41,9 @@ body {
     padding-right: 15%;
 }
 
-
 #linkedindetail{
   
-    background-color: #CBD7E8;
+    background-color: white;
     height: auto;
     color: black;
     font-family: 'bad-script';
@@ -69,7 +68,7 @@ body {
 
 #interviewdetail{
   
-      background-color: white;
+      background-color: #DEF0F4;
       height: auto;
       color: black;
       font-family: 'bad-script';
@@ -93,6 +92,7 @@ body {
       margin-right: 0 auto;
       padding-left: 15%;
       padding-right: 15%;
+      margin-bottom: 1.5em;
   
 }
 
