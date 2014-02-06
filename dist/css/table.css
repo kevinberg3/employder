@@ -4,54 +4,56 @@
     padding: 0;
 }
 body {
-    font-family: Ubuntu, arial, verdana;
+    font-family: sans-serif;
 
 }
-#resumedetail img, #coverdetail img, #linkedindetail img, #interviewdetail img {
+#resumedetail img, #coverdetail img, #linkedindetail img, #interviewdetail img, #resumereviewdetail img {
     width: auto;
 }
-#resumedetail{
+#resumedetail {
 
   background-color: #DEF0F4;
-  height: auto;
+  height: 615px;
   color: black;
   font-family: 'bad-script';
   text-align: center;
   margin-left: 0 auto;
   margin-right: 0 auto;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 4%;
+  padding-right: 4%;
   /*width: 100%;*/
 }
+
+
 
 #resumedetail .col-lg-6 {
     margin: auto;
 }
 
-#coverdetail{
+#resumereviewdetail, #coverdetail{
   
-    background-color: #DEF0F4;
-    height: auto;
+    background-color: white;
+    height: 410px;
     color: black;
     font-family: 'bad-script';
     text-align: center;
     margin-left: 0 auto;
     margin-right: 0 auto;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 #linkedindetail{
   
-    background-color: white;
-    height: auto;
+    background-color: #DEF0F4;
+    height: 775px;
     color: black;
     font-family: 'bad-script';
     text-align: center;
     margin-left: 0 auto;
     margin-right: 0 auto;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 #linkedindetail .list-group {
     
@@ -69,30 +71,30 @@ body {
 #interviewdetail{
   
       background-color: #DEF0F4;
-      height: auto;
+      height: 775px;
       color: black;
       font-family: 'bad-script';
       text-align: center;
       margin-left: 0 auto;
       margin-right: 0 auto;
-      padding-left: 15%;
-      padding-right: 15%;
+      padding-left: 4%;
+      padding-right: 4%;
   
 
 }
 
 #mentordetail{
   
-      background-color: white;
-      height: auto;
+      background-color: #DEF0F4;
+      height: 615px;
       color: black;
       font-family: 'bad-script';
       text-align: center;
       margin-left: 0 auto;
       margin-right: 0 auto;
-      padding-left: 15%;
-      padding-right: 15%;
-      margin-bottom: 1.5em;
+      padding-left: 4%;
+      padding-right: 4%;
+      
   
 }
 
@@ -113,7 +115,7 @@ font-family: 'Bad Script', sans-serif;
     width: 75%;
     max-width: 800px;
     padding-top: 10px;
-    margin-top: 100px;
+    margin-top: 20px;
     /*height: auto;*/
 }
 #section0 .price_block {
@@ -175,7 +177,7 @@ font-family: 'Bad Script', sans-serif;
 
 
 #section0 #pro {
-    background-color: #5A016D;
+    background-color: #470051;
 }
 #section0 #basic {
 background-color: teal;

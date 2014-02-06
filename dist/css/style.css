@@ -614,7 +614,7 @@ footer .social-links ul li a:hover {
 #about .col-lg-2 .quote #me {
   
   text-align: center;
-  border-style: solid;
+  /*border-style: solid;*/
   padding: 5px;
   border-width: 1px;
   border-radius: 15px;
