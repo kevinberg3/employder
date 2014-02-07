@@ -7,6 +7,19 @@ body {
     font-family: sans-serif;
 
 }
+.col-lg-4 .individualservices p {
+    text-align: left;
+    margin-left: -150px;
+    padding-right: 8%;
+
+}
+.individualservices a{
+    color: black;
+}
+
+.individualservices a:hover {
+    color: blue;
+}
 #resumedetail img, #coverdetail img, #linkedindetail img, #interviewdetail img, #resumereviewdetail img {
     width: auto;
 }
@@ -109,6 +122,7 @@ font-family: 'Bad Script', sans-serif;
 }
 
 #section0 .pricing_table {
+
     line-height: 150%;
     font-size: 12px;
     margin: 0 auto;
