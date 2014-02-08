@@ -2,7 +2,7 @@
 
 /* ========== GENERAL STYLES ========== */
 body {
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
   padding-top: 84px;
 }
 a {
@@ -52,11 +52,19 @@ img {
 form {
   padding-top: 0;
 }
+
 /* ========== BOOTSTRAP OVERRIDES ========== */
+.section #bottomhero {
+  padding-left: 25%;
+  padding-right: 25%;
+  margin-top: 12.5rem;
+  color: white;
+}
+
 .lead {
   font-weight: 200;
   color: black;
-  font-family: 'IM Fell Double Pica';
+  font-family: 'Oswald', sans-serif;
 }
 .jumbotron {
   margin: 0;
@@ -605,7 +613,7 @@ footer .social-links ul li a:hover {
 }
 
 .quote p {
-  font-family: roboto;
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -738,7 +746,7 @@ img {
   -moz-border-radius: 15px;
   border-radius: 15px;
   color: black;
-  font-family: 'roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 2em;
   width: 100%;
 }

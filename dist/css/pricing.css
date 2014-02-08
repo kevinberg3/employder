@@ -2,3 +2,9 @@
   text-align: left;
 }
 
+.navbar .navbag-nav li {
+font-weight: 200;
+height: 20px;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 18px;
+}
