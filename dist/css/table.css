@@ -75,13 +75,17 @@ body {
     position: center;
     margin: 0 auto;
     margin-bottom: 1em;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 50;
 }
 
 #linkedindetail .list-group #odd {
     color: white;
     background-color: #0D56A6;
+    height: 4em;
+}
+
+#linkedindetail .list-group-item {
     height: 4em;
 }
 
