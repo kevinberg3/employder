@@ -151,7 +151,6 @@ body {
     width: 100%;
     color: #fff;
     float: left;
-
     list-style-type: none;
     transition: all 0.25s;
     position: relative;
@@ -264,6 +263,10 @@ background-color: teal;
 }
 #section0 .price_block:hover .action_button {
     background: linear-gradient(#F9B84A, #DB7224);
+}
+
+#section0 .col-lg-7 .price_block .price .price_figure .price_number {
+    text-align: center;
 }
 
 @media only screen and (min-width : 480px) and (max-width : 768px) {
