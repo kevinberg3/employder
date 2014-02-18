@@ -6,7 +6,7 @@ body {
   padding-top: 84px;
 }
 a {
-  color: white;
+  color: black;
   font-weight: 200;
 }
 a:hover {
@@ -24,7 +24,6 @@ strong {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: 'Bad Script', sans-serif;
@@ -41,6 +40,11 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
 hr {
   margin-bottom: 0;
 }
@@ -508,6 +512,10 @@ textarea {
 #more-info {
   background-color: #38ad9e;
 }
+
+.contact .continer .row .info {
+  color: black;
+}
 /* ========== CONFIRMATION FORM ========== */
 #confirmation-form {
   background-color: #eeeeee;
@@ -749,8 +757,9 @@ img {
   text-align: center;
 }
 
+.ltr {
+  color: black;
+}
 
-
-/
 
 
