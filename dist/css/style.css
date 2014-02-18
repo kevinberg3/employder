@@ -2,7 +2,7 @@
 
 /* ========== GENERAL STYLES ========== */
 body {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding-top: 84px;
 }
 a {
@@ -42,7 +42,7 @@ h6 {
 }
 
 h4 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 hr {
@@ -63,7 +63,7 @@ form {
 .lead {
   font-weight: 200;
   color: black;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .jumbotron {
   margin: 0;
@@ -302,9 +302,10 @@ textarea {
   margin-bottom: 21px;
 }
 /* ========== HERO ========== */
-#hero,
+
 #primary-hero {
-  
+  padding-left: 30%;
+  padding-right: 30%;
 }
 #hero .hero-quote,
 #primary-hero .hero-quote {
@@ -338,7 +339,7 @@ textarea {
 }
 #primary-hero h1 {
   margin: 0px;
-  padding: 120px 20px 0px 20px;
+  padding: 80px 20px 0px 20px;
   color: white;
   font-weight: bold;
   font-size: 3.5em;
@@ -617,7 +618,7 @@ footer .social-links ul li a:hover {
 }
 
 .quote p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 
@@ -749,7 +750,7 @@ img {
   -moz-border-radius: 15px;
   border-radius: 15px;
   color: black;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 2em;
   width: 100%;
 }
