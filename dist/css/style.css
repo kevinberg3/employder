@@ -241,6 +241,7 @@ a.anchor{display: block; position: relative; top: -250px; visibility: hidden;}
 .navbar .navbar-nav li {
   margin-top: 4rem;
   margin-right: 10px;
+  padding-right: 1em;
   /*padding: 10px;*/
   border-top: solid 3px transparent;
   -webkit-transition: border-top 0.4s;
