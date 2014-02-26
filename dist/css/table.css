@@ -63,7 +63,7 @@ body {
 #resumereviewdetail, #coverdetail{
   
     background-color: #DEF0F4;
-    height: 480px;
+    height: auto;
     color: black;
     font-family: 'Raleway', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
@@ -71,6 +71,7 @@ body {
     margin-right: 0 auto;
     padding-left: 4%;
     padding-right: 4%;
+    padding-top: .5%;
 }
 
 #linkedindetail{
