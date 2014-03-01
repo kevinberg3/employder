@@ -251,7 +251,7 @@ background-color: teal;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    background: linear-gradient(#666, #333);
+    background: teal;
     padding: 5px 20px;
     font-size: 11px;
     text-transform: uppercase;
