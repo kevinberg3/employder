@@ -707,6 +707,10 @@ footer .social-links ul li a:hover {
     margin-top: 2em;
   }
 
+  #primary-hero {
+    height: 660px;
+  }
+
 
 }
 
