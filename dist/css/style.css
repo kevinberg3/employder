@@ -681,6 +681,34 @@ footer .social-links ul li a:hover {
   }
 }
 
+@media (min-width: 480px) {
+  /* Submit resume badge */
+  .submit-resume {
+   display: none;
+   font-family: 'Raleway', sans-serif;
+   opacity: .75;
+   color: white;
+   padding-top: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+   top: 8em;
+   right: 15px;
+   position: fixed;
+   background: teal;
+   height: 125px;
+   width: 125px;
+   -moz-border-radius:    63.5px;
+   -webkit-border-radius: 63.5px;
+   border-radius:         63.5px;
+  }
+
+  .submit-resume:hover {
+    color: #FF7400;
+    opacity: 1.0;
+    
+  }
+}
 
 @media (max-width: 767px) {
   #primary-hero {
@@ -695,6 +723,8 @@ footer .social-links ul li a:hover {
   #about .container .row .col-lg-2 #founderbio {
     display: none;
   }
+
+
 }
 
 
@@ -730,7 +760,9 @@ footer .social-links ul li a:hover {
     text-align: center;
   }
 
+  .submit-resume {
 
+  }
 
 
   #primary-hero {
@@ -815,30 +847,4 @@ img {
 
 .ltr {
   color: black;
-}
-/* Submit resume badge */
-.submit-resume {
- display: none;
- font-family: 'Raleway', sans-serif;
- opacity: .75;
- color: white;
- padding-top: 30px;
- padding-left: 10px;
- padding-right: 10px;
- text-align: center;
- top: 8em;
- right: 15px;
- position: fixed;
- background: teal;
- height: 125px;
- width: 125px;
- -moz-border-radius:    63.5px;
- -webkit-border-radius: 63.5px;
- border-radius:         63.5px;
-}
-
-.submit-resume:hover {
-  color: #FF7400;
-  opacity: 1.0;
-  
 }
