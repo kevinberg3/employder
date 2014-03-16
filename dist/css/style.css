@@ -336,7 +336,7 @@ a.anchor{display: block; position: relative; top: -250px; visibility: hidden;}
 #primary-hero {
   
   background: url("../images/torontolight2.gif") 50% 0 no-repeat;
-  height: 100vh;
+  height: 85vh;
   background-size: cover;
   
 }
@@ -672,7 +672,7 @@ footer .social-links ul li a:hover {
     margin: 0 auto;
     padding-left: 0px;
     padding-right: 0px;
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   #tophero {
     width: 100%;
