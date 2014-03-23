@@ -31,7 +31,6 @@ body {
 }
 #resumedetail {
   background-color: #DEF0F4;
-  height: auto;
   color: black;
   font-family: 'Raleway', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
   text-align: center;
@@ -63,7 +62,7 @@ body {
 #resumereviewdetail, #coverdetail{
   
     background-color: #DEF0F4;
-    height: auto;
+    height: 560px;
     color: black;
     font-family: 'Raleway', Arial, Verdana, 'Helvetica Neue', Helvetica, sans-serif;
     text-align: center;
@@ -284,6 +283,13 @@ background-color: teal;
 #findmentor {
     padding: 20px;
 }
+@media (max-width: 1200px) {
+    #resumereviewdetail, #coverdetail {
+        height: auto;
+
+    }
+}
+
 
 @media only screen and (min-width : 480px) and (max-width : 768px) {
     #section0 .price_block {width: 50%;}

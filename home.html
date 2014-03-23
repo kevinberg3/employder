@@ -44,6 +44,26 @@
 </head>
 <body id="home" data-spy="scroll" data-offset="84" data-target=".navbar" style="">
 
+  <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '{255459761302065}',
+            status     : true,
+            xfbml      : true
+          });
+        };
+
+        (function(d, s, id){
+           var js, fjs = d.getElementsByTagName(s)[0];
+           if (d.getElementById(id)) {return;}
+           js = d.createElement(s); js.id = id;
+           js.src = "//connect.facebook.net/en_US/all.js";
+           fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));
+      </script>
+
+
   <nav class="navbar navbar-default navbar-fixed-top" id="top" role="navigation">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -105,7 +125,7 @@
 </section>
 </div>
 
-<a class="submit-resume" data-scroll data-speed="450" data-easing="easeOutElastic" data-url="false" id="contactlink" href="#contact">Submit your resume for a free review!</a>
+<a class="submit-resume" data-scroll data-speed="450" data-easing="easeOutElastic" data-url="false" id="contactlink" href="https://emptest.wufoo.com/forms/s7l9guy14ssxmi/" onclick="window.open(this.href,  null, 'height=320, width=680, toolbar=0, location=0, status=1, scrollbars=1, resizable=1'); return false">Submit your resume for a free review!</a>
 
 <div class="section" id="services">
 <section id="services" class="spacing">
@@ -419,9 +439,20 @@
           <a href="https://twitter.com/employder" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @employder</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
         </p>
+        <p>
+       <div id="fb-root"></div>
+       <script>(function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));</script>
 
-        
+       <div class="fb-like" data-href="https://www.facebook.com/employder" data-layout="standard" data-action="like" data-show-faces="false" data-share="true"></div>
+      </p>
       </div>
+
       </div>
     </div>
   </section> 
@@ -431,15 +462,21 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-lg-8 copyright">
+        <div class="col-sm-4">
           <p>
             © 2013 Employder
             </br>
-            
-          </p>
+                   
+        </div>
+        <div class="col-sm-4">
+          <a class="footerlink" href="privacy.html">PRIVACY</a>
+        </div>
+        <div class="col-sm-4">
+          <a class="footerlink" href="tos.html">TERMS OF SERVICE</a></br>
         </div>
       </div>
     </div>
+  
     
     <script>
      
@@ -464,6 +501,9 @@
   
 
 </footer>
+
+
+
 <!-- begin olark code -->
 <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 f[z]=function(){

@@ -241,7 +241,8 @@ a.anchor{display: block; position: relative; top: -250px; visibility: hidden;}
 .navbar .navbar-nav li {
   margin-top: 4rem;
   margin-right: 10px;
-  padding-right: 1em;
+  padding-right: .5em;
+  padding-left: .5em;
   /*padding: 10px;*/
   border-top: solid 3px transparent;
   -webkit-transition: border-top 0.4s;
@@ -582,6 +583,11 @@ footer {
   padding: 17px 0 7px;
   background-color: #0D56A6;
   color: white;
+  padding: 25px;
+}
+
+footer .footerlink {
+  color: white;
 }
 footer .copyright small {
   font-size: 75%;
@@ -589,7 +595,7 @@ footer .copyright small {
 footer .copyright small a {
   color: white;
 }
-footer .copyright small a:hover {
+footer a:hover {
   text-decoration: underline;
 }
 footer .social-links {
@@ -725,7 +731,6 @@ footer .social-links ul li a:hover {
   #about .container .row .col-lg-2 #founderbio {
     display: none;
   }
-
 
 }
 
