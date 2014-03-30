@@ -749,7 +749,7 @@ footer .social-links ul li a:hover {
  }
 
  #serviceflow {
-  height: 20em;
+  display: none;
  }
 
 }
