@@ -672,7 +672,7 @@ footer .social-links ul li a:hover {
 @media (max-width: 480px) {
   #primary-hero {
     background: teal;
-    height: 500px;
+    height: 450px;
   }
   #primary-hero h1 {
     width: 100%;
@@ -729,7 +729,6 @@ footer .social-links ul li a:hover {
 @media (max-width: 767px) {
   #primary-hero {
     width: auto;
-    height: 400px;
     color: green;
     padding-bottom: 25px;
     padding-left: 0px;
