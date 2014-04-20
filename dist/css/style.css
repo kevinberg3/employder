@@ -308,8 +308,9 @@ a.anchor{display: block; position: relative; top: -250px; visibility: hidden;}
 /* ========== HERO ========== */
 
 #primary-hero {
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-top: 2.5%;
+  padding-left: 12.5%;
+  padding-right: 12.5%;
 }
 #hero .hero-quote,
 #primary-hero .hero-quote {
@@ -336,14 +337,14 @@ a.anchor{display: block; position: relative; top: -250px; visibility: hidden;}
 }*/
 #primary-hero {
   
-  background: url("../images/torontolight2.gif") 50% 0 no-repeat;
+  background: url("../images/Brooklyn_Bridge_light.jpg") 50% 0 no-repeat;
   height: 85vh;
   background-size: cover;
   
 }
 #primary-hero h1 {
   margin: 0px;
-  padding: 84px 20px 0px 20px;
+  padding: 84px 10px 0px 10px;
   color: white;
   font-weight: bold;
   font-size: 2.8em;
@@ -694,14 +695,14 @@ footer .social-links ul li a:hover {
   .submit-resume {
    display: none;
    font-family: 'Raleway', sans-serif;
-   opacity: .75;
+   opacity: .85;
    color: white;
    padding-top: 30px;
    padding-left: 10px;
    padding-right: 10px;
    text-align: center;
    top: 8em;
-   right: 15px;
+   left: 20px;
    position: fixed;
    background: teal;
    height: 125px;
