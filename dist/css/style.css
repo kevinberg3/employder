@@ -703,14 +703,14 @@ footer .social-links ul li a:hover {
    padding-right: 10px;
    text-align: center;
    top: 8.5em;
-   left: 20px;
+   left: 15px;
    position: fixed;
    background: teal;
    height: 125px;
    width: 125px;
-   -moz-border-radius:    63.5px;
-   -webkit-border-radius: 63.5px;
-   border-radius:         63.5px;
+   -moz-border-radius:    62.5px;
+   -webkit-border-radius: 62.5px;
+   border-radius:         62.5px;
   }
 
   .submit-resume:hover {
